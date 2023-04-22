@@ -1,0 +1,105 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"], 
+  input[type="email"], 
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  button[type="submit"] {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background: #5CBF62;
+  }
+  
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    
+    thead {
+      background: #4CAF50;
+      color: #fff;
+    }
+    
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th:first-child, td:first-child {
+      width: 20%;
+    }
+    
+    th:nth-child(2), td:nth-child(2) {
+      width: 15%;
+    }
+    
+    th:nth-child(3), td:nth-child(3) {
+      width: 25%;
+    }
+    
+    th:nth-child(4), td:nth-child(4) {
+      width: 20%;
+    }
+    
+    th:last-child, td:last-child {
+      width: 20%;
+    }
+    
+    tbody tr:hover {
+      background: #f5f5f5;
+    }
+    
+    td {
+      font-size: 14px;
+    }
+    
+    td:nth-child(2) {
+      font-family: 'Courier New', Courier, monospace;
+    }
+    
+    td:nth-child(4) {
+      font-weight: bold;
+    }
+    
+    td:last-child {
+      letter-spacing: 4px;
+    }
+    
